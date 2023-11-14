@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20231114 20:44:19.384" generator="Robot 3.0.4 (Python 2.7.12 on win32)">
+<suite source="C:\QAx\projects\mark85-robot-express\online.robot" id="s1" name="Online">
+<test id="s1-t1" name="Webapp deve estar online">
+<kw name="New Page">
+<arguments>
+<arg>http://localhost:3000</arg>
+</arguments>
+<msg timestamp="20231114 20:44:19.522" level="FAIL">No keyword with name 'New Page' found.</msg>
+<status status="FAIL" endtime="20231114 20:44:19.522" starttime="20231114 20:44:19.521"></status>
+</kw>
+<status status="FAIL" endtime="20231114 20:44:19.522" critical="yes" starttime="20231114 20:44:19.520">No keyword with name 'New Page' found.</status>
+</test>
+<doc>Online</doc>
+<status status="FAIL" endtime="20231114 20:44:19.524" starttime="20231114 20:44:19.386"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="0">Critical Tests</stat>
+<stat fail="1" pass="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="1" id="s1" name="Online" pass="0">Online</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20231114 20:44:19.517" level="ERROR">Error in file 'C:\QAx\projects\mark85-robot-express\online.robot': Importing test library 'Browser' failed: ImportError: No module named Browser
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\WINDOWS\SYSTEM32\python27.zip
+  c:\python27\DLLs
+  c:\python27\lib
+  c:\python27\lib\plat-win
+  c:\python27\lib\lib-tk
+  c:\python27
+  c:\python27\lib\site-packages
+  c:\python27\lib\site-packages\PIL
+  c:\python27\lib\site-packages\win32
+  c:\python27\lib\site-packages\win32\lib
+  c:\python27\lib\site-packages\Pythonwin</msg>
+</errors>
+</robot>
